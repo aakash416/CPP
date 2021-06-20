@@ -14,7 +14,7 @@ Consider the following input:
 
 Good Morning, which is the string to be processed. Let N = 2, the number of equal length strings. Since, the length of the string is 12, then splitting the string would give 2 you 2 strings Good M and orning. Should the value be N = 5, then the string cannot be split into 5 equal parts. Thus you should be printing the following text:
 
-Invalid fouT
+Invalid input
 
 Function Description
 
