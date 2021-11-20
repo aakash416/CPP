@@ -1,8 +1,27 @@
 /******************************************************************************
+Help Michael Scott
 
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
+Michael Scott is the manager of Dunder Mifflin Paper Company. His office desk is situated at Nth floor of the office. He takes a lift to reach his floor. Now the lift can only move upwards in powers of 2 (like it can move 1 floor upwards or 2 floors or 4 floors upwards etc.) in one move. Michael has to attend a very important meeting. Help him to reach his office floor in minimum no. of moves possible.
+
+Let's say Michael's office is situated at 5th floor. There are several ways in which he can reach his office. One of the ways is that in first move, the lift can move 2 floors up and reach 2nd floor. Then in next move. again lift moves 2 floors up and reaches 4th floor. And finally, from 4th floor, lift moves 1 floor up and reaches 5th floor. Total moves taken is 3.
+
+Another way is that in first move, lift can move 4 floors up and reach 4th floor. Then in next move, lift moves 1 floor up and reaches 5th floor. Total moves taken is 2. We have to return the minimum no; of moves in which Michael can reach his office. In this case it is 2
+
+Input Format
+
+• Input test case contains a single number N denoting the office floor of Michael Scott.
+
+Output Format
+
+• Output a single number, containing the minimum number of moves required by Michael Scott to reach the Nth floor
+
+Input 1
+
+5
+
+Output 
+
+2
 
 *******************************************************************************/
 
@@ -10,7 +29,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <math.h>
 
 using namespace std;
-int helpMichaelScott(int n)
+int HelpMichaelScott(int n)
 {
     int pb = 0, ms, a;
     int s = 0, count = 0;
@@ -45,6 +64,6 @@ int main()
 {
     int n;
     cin >> n;
-    cout << helpMichaelScott(n);
+    cout << HelpMichaelScott(n);
     return 0;
 }
